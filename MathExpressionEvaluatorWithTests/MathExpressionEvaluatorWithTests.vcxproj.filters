@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\containers_utils.h" />
+    <ClInclude Include="Headers\dynamic_stack.h" />
+    <ClInclude Include="Headers\expressions.h" />
+    <ClInclude Include="Headers\math_terms.h" />
+    <ClInclude Include="Headers\token.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\containers_utils.cpp" />
+    <ClCompile Include="Sources\expressions.cpp" />
+    <ClCompile Include="Sources\math_terms.cpp" />
+    <ClCompile Include="Sources\token.cpp" />
+    <ClCompile Include="Tests\starter.cpp" />
+    <ClCompile Include="Tests\tests_dynamic_stack.cpp" />
+    <ClCompile Include="Tests\tests_validator.cpp" />
+  </ItemGroup>
+</Project>
